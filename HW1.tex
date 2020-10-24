@@ -1,0 +1,122 @@
+\documentclass[12pt]{article}%
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+\usepackage{comment}
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2.2cm, right=2.2cm]%
+{geometry}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{changepage}
+\usepackage{amssymb}
+\usepackage{graphicx}%
+\setcounter{MaxMatrixCols}{30}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\begin{document}
+
+\title{Assignment 1}
+\author{Shivangi Parashar}
+\date{\today}
+\maketitle
+
+\section{Lines and Planes}
+ 
+Q.1) For which values of a and b does the following pair of linear equations have infinite number of solutions?\\
+\\
+(2 3 )x =7 \\
+(a-b   a+b)x=3a+b-2
+\\
+\\
+{Solution:}
+we are given that linear equation has infinite number of solutions and we need to find values of a and b\\
+\\
+2x+3y=7\\
+2x+3y-7=0....................................eqn 1\\
+(a-b)x+(a+b)y=3a+b−2\\
+(a-b)x+(a+b)y-3a+b−2=0....................eqn 2\\
+The system of an equation has infinitely many solutions when the \underline{lines are coincident}, and they have the same \underline{y-intercept}. \\
+If the two lines have the y-intercept and the slope, they are actually in the same exact line then the system should have infinite solutions.\\
+
+a1 / a2 = b1 / b2 = c1 / c2 ..............eqn 3\\
+\\
+For  the pair of lines to be  coincident and the pair of equations is dependent and consistent.\\
+Considering eqn1 we have :\\
+\\
+2x+3y-7=0....................................eqn 1
+\\
+From the above eqn 1 we have :\\
+\\
+ a1=2 \\
+ b1=3\\
+ c1=-7\\
+(a-b)x+(a+b)y-3a+b−2=0....................eqn 2\\
+From the above eqn 2 we have :
+\\
+a2=(a-b)\\
+b2=(a+b)\\
+c2=-(3a+b-2)\\
+\\
+\\
+Putting values of a1,b1,c1 and a2,b2,c2 in eqn 3 we have.
+\\
+2/a-b= 3/a+b=-7/-(3a+b-2)..................eqn 4
+\\
+Solving 2/(a-b)=3/(a+b) from eqn 4\\
+\\
+2b+ 3b=3a-2a
+\\
+a=5b........................................eqn 5
+\\
+Solving 2/(a-b)=7/(3a+b-2) from eqn 4
+\\
+9b-4=a\\
+\\
+putting a=5b from eqn 5 we have:\\
+9b-4=5b
+\\
+\\
+b=1
+Now putting b in eqn 5 we have:\\
+a=5
+\\
+\\
+Hence value of \underline{a =5 and b=1 }for which above eqn will have infinite solutions.
+\\
+\\
+Now if we put the values of a and b and if the ranks of augmented and coefficient matrix are equal but less than the full rank for that values of a and b than we can say that our equation has infinite solution
+
+
+
+
+
+
+
+
+
+\end{document}
