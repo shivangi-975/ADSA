@@ -1,4 +1,22 @@
 //Shivangi Parashar AI20MTECH14012
+/*1. Write a program that accepts two integers n, k and finds bn
+1
+k c. The algorithm behind your
+program should run in time polynomial in log n. Math libraries are not allowed.
+Input format: The first line of the input consists of a number t ≥ 1 of test cases. Each
+subsequent line consists of pairs n, k separated by a space. An example is given below.
+Sample Input:
+3
+64 3
+15 2
+10 5
+Sample Output:
+4
+3
+1
+Constraints: 1 ≤ n ≤ 1016
+
+, 1 ≤ k ≤ n.*/
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
