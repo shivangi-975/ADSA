@@ -1,3 +1,19 @@
+/*Given an array A[1, 2, . . . , n] of distinct elements, an inversion is a pair (i, j) of indices
+such that i < j and A[i] > A[j]. Eg: The sequence 3,8,0,-4,1 has 7 inversions, namely
+the pairs (1,3), (1,4), (1,5), (2,3), (2,4), (2,5), (3,4).
+Write a program to count the number of inversions of a given array. The algorithm behind
+your input should run in O(n log n) time.
+Input format: The first line of the input consists of a single integer: n, the number of
+elements in the array. The second line of the input consists of the elements of the array,
+separated by a space.
+Sample Input:
+5
+3 8 0 -4 -1
+Sample Output:
+7
+Constraints: n ≤ 105
+*/
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
