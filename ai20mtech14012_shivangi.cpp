@@ -1,4 +1,6 @@
 /*Shivangi Parashar*/
+//This program explains dynamic programming concepts.
+//This program explains application of dynamic programming in sequence alignment problem.
 #include<bits/stdc++.h>
 //Import libraries
 using namespace std;
