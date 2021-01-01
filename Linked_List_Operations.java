@@ -1,3 +1,48 @@
+/*
+Sonu works for a firm. Due to corona pandemic, he has to work from his home during lockdown. Each  day he is assigned a set of jobs by his supervisor, each associated with some number (job id). He then  performs some operations on the jobs based on orders he receives from his supervisor. He has modeled  the jobs as a Linked list in his system. 
+1. If the supervisor asks him to reschedule the first x jobs to the end, he performs the below  operation:  
+L x - removes x items from the start and attaches them to the end of the linked list. For e.g. if the operation is L 3 and the current state of linked list is 6 7 4 3 , then 3 elements are removed  one by one from the left and attached to the end i.e. the state of the linked list changes as 7 4 3 6 , then  4 3 6 7 then 3 6 7 4. 
+2. If the supervisor asks him to reschedule the last x jobs to the beginning, he performs the below  operation: 
+R x - removes x items from the end and attaches them to the start of the linked list. For e.g. if the operation is R 3 and the current state of linked list is 6 7 4 3 , then 3 elements are removed  one by one from the right and attached to the start i.e. the state of the linked list changes as 3 6 7 4, then  4 3 6 7 then 7 4 3 6. 
+3. If the supervisor asks him to remove a job completely, he performs the below operation: 
+D i - deletes the element at the ith position of the linked list assuming the start of the linked list has  i=0. No deletion operation is performed if the ith element is not present. 
+Your task is to output the final list of his jobs at the end of the day. 
+Input 
+The first line of the input contains of a single integer N denoting the number of jobs assigned to Sonu  on a particular day. 
+The second line contains N space separated numbers corresponding to the id of the jobs. 
+The next line contains a number O, that represents the number of orders/operations that Sonu receives  from his supervisor on a given day. Each of the next O lines consists of operations in the format given  above. 
+Output 
+Your output should be space separated numbers that represents the elements of the final linked list of  jobs in an appropriate order. 
+Constraints:  
+1<= x, N, JobId, O <=1000 
+Sample test case: 
+Input 
+4  
+6 4 3 8 
+5  
+L 5 
+R 1 
+R 2  
+L 2 
+D 2 
+Output: 
+6 4 8 
+Explanation: 
+6 , 4 , 3 and 8 are the job id’s of the four jobs 
+After L 5 operation, the linked list looks like: 4 3 8 6 
+After R 1 operation, the linked list looks like: 6 4 3 8 
+After R 2 operation, the linked list looks like: 3 8 6 4 
+After L 2 operation, the linked list looks like: 6 4 3 8 
+After D 2 operation, the linked list looks like: 6 4 8 
+6 4 8 is the final value. 
+Input:  
+1 
+10 
+1  
+D 0  
+Output: 
+-1
+*/
 package linked_oper;
 
 import java.io.BufferedReader;
