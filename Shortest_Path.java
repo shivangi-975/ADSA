@@ -1,3 +1,23 @@
+/*
+Post-COVID 19, an amusement park in New Delhi decided to open a maze for selected number of IIIT Delhi students. The maze was constructed in a grid shape with n rows and m columns, where the winner needs to enter from the top-left room and exit from bottom right room while going through the minimum number of rooms. 
+In order to ensure that the task is not too trivial, the owner decided to divide the rooms in two categories and place volunteers in each room. A male volunteer will only let you pass if you hand him Item A and take Item B from him, while the female volunteer takes Item B and gives Item A. 
+Before entering the maze the participants have a choice to choose either Item A or Item B. If every room has a door to every adjacent room, write an algorithm to find the minimum number of rooms the winner has to travel through in order to win. 
+--------------------------------------------------------------------------------------------------------------------- 
+INPUT: 
+The first line of each test case contains the numbers n & m, denoting the size of the maze. The next n lines are strings of m characters describing if the room has a male (1) or a female volunteer(0). 
+--------------------------------------------------------------------------------------------------------------------- 
+OUTPUT: 
+Simply output the number of rooms the winner has to travel through and ‘-1’ if no path exists. 
+---------------------------------------------------------------------------------------------------------------------
+EXAMPLE: INPUT: 
+3 3 
+011 
+001 
+000 
+OUTPUT: 5
+*/
+
+
 import java.util.*;
 
 class Shortest_Path {
