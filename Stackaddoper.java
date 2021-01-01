@@ -1,3 +1,11 @@
+/*a. Design an adder using stack to add 2 big numbers and store the result as string.
+You have to build the stack from scratch. (i.e. Do not use and pre-existing Java
+Collection framework e.g. Stack class).
+b. Write a program that would compute the factorial of a large number. (Do not use
+any pre- existing library or function i.e. Do not use BigInteger or similar Classes
+and functionalities.) (You have to use the adder in part 2a to compute the
+factorial )
+*/
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
